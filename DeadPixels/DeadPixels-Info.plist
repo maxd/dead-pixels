@@ -12,8 +12,6 @@
 	<string>AppIcon-57x57.png</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>apple-touch-icon-iphone4.png</string>
-		<string>apple-touch-icon-iphone.png</string>
 		<string>AppIcon-114x114.png</string>
 		<string>AppIcon-57x57.png</string>
 	</array>
@@ -23,8 +21,6 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>apple-touch-icon-iphone4.png</string>
-				<string>apple-touch-icon-iphone.png</string>
 				<string>AppIcon-114x114.png</string>
 				<string>AppIcon-57x57.png</string>
 			</array>
