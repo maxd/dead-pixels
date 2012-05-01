@@ -29,7 +29,7 @@
 		091815711550417700DDA547 /* AppIcon-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 091815701550417700DDA547 /* AppIcon-114x114.png */; };
 		091815731550417C00DDA547 /* AppIcon-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 091815721550417C00DDA547 /* AppIcon-57x57.png */; };
 		0918157B15504CD500DDA547 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0918157A15504CD500DDA547 /* background.jpg */; };
-		0918157C15504ECD00DDA547 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0918157D15504ECD00DDA547 /* ViewController.xib */; };
+		0918157C15504ECD00DDA547 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0918157D15504ECD00DDA547 /* MainViewController.xib */; };
 		091815941550621400DDA547 /* AppIcon-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 091815931550621400DDA547 /* AppIcon-72x72.png */; };
 		091815971550621700DDA547 /* AppIcon-144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 091815961550621700DDA547 /* AppIcon-144x144.png */; };
 		098F3257154FEAA60078D309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098F3256154FEAA60078D309 /* UIKit.framework */; };
@@ -72,7 +72,7 @@
 		091815701550417700DDA547 /* AppIcon-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-114x114.png"; sourceTree = "<group>"; };
 		091815721550417C00DDA547 /* AppIcon-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-57x57.png"; sourceTree = "<group>"; };
 		0918157A15504CD500DDA547 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
-		0918157D15504ECD00DDA547 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		0918157D15504ECD00DDA547 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		091815931550621400DDA547 /* AppIcon-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-72x72.png"; sourceTree = "<group>"; };
 		091815961550621700DDA547 /* AppIcon-144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-144x144.png"; sourceTree = "<group>"; };
 		098F3252154FEAA60078D309 /* DeadPixels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadPixels.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,7 +188,7 @@
 				0918151E154FF80500DDA547 /* Strategies */,
 				098F3268154FEAA60078D309 /* MainViewController.h */,
 				098F3269154FEAA60078D309 /* MainViewController.m */,
-				0918157D15504ECD00DDA547 /* ViewController.xib */,
+				0918157D15504ECD00DDA547 /* MainViewController.xib */,
 				09181517154FF59B00DDA547 /* TestViewController.h */,
 				09181518154FF59B00DDA547 /* TestViewController.m */,
 				09181519154FF59B00DDA547 /* TestViewController.xib */,
@@ -264,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				098F3261154FEAA60078D309 /* InfoPlist.strings in Resources */,
-				0918157C15504ECD00DDA547 /* ViewController.xib in Resources */,
+				0918157C15504ECD00DDA547 /* MainViewController.xib in Resources */,
 				0918151B154FF59B00DDA547 /* TestViewController.xib in Resources */,
 				091815511550224700DDA547 /* button-bg-highlight.png in Resources */,
 				091815521550224700DDA547 /* button-bg-normal.png in Resources */,
