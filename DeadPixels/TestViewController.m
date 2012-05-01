@@ -56,14 +56,14 @@
     // Fix problem with animation in viewDidLoad: http://stackoverflow.com/questions/4007023/blocks-instead-of-performselectorwithobjectafterdelay 
     [UIView animateWithDuration:0 delay:0.1 options:UIViewAnimationOptionAllowUserInteraction animations:^{} completion:^(BOOL finished){
         [self setColorItem:[strategy colorItem]];
-    }];
 
-    if (![[Settings shared] canShowTestViewNullScreen]) {
-        nullScreenPlaceholder.hidden = YES;
-    } else {
-        nullScreenPlaceholder.hidden = NO;
-        [[Settings shared] markTestViewNullScreen];
-    }
+        if (![[Settings shared] canShowTestViewNullScreen]) {
+            nullScreenPlaceholder.hidden = YES;
+        } else {
+            nullScreenPlaceholder.hidden = NO;
+            [[Settings shared] markTestViewNullScreen];
+        }
+    }];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
