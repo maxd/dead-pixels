@@ -28,10 +28,10 @@
 		0918156B155033C300DDA547 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0918156A155033C300DDA547 /* Settings.m */; };
 		091815711550417700DDA547 /* AppIcon-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 091815701550417700DDA547 /* AppIcon-114x114.png */; };
 		091815731550417C00DDA547 /* AppIcon-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 091815721550417C00DDA547 /* AppIcon-57x57.png */; };
-		0918157B15504CD500DDA547 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0918157A15504CD500DDA547 /* background.jpg */; };
 		0918157C15504ECD00DDA547 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0918157D15504ECD00DDA547 /* MainViewController.xib */; };
 		091815941550621400DDA547 /* AppIcon-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 091815931550621400DDA547 /* AppIcon-72x72.png */; };
 		091815971550621700DDA547 /* AppIcon-144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 091815961550621700DDA547 /* AppIcon-144x144.png */; };
+		098F31F01553C80300F35B80 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F31EF1553C80300F35B80 /* background.png */; };
 		098F3257154FEAA60078D309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098F3256154FEAA60078D309 /* UIKit.framework */; };
 		098F3259154FEAA60078D309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098F3258154FEAA60078D309 /* Foundation.framework */; };
 		098F325B154FEAA60078D309 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098F325A154FEAA60078D309 /* CoreGraphics.framework */; };
@@ -71,10 +71,10 @@
 		0918156A155033C300DDA547 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		091815701550417700DDA547 /* AppIcon-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-114x114.png"; sourceTree = "<group>"; };
 		091815721550417C00DDA547 /* AppIcon-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-57x57.png"; sourceTree = "<group>"; };
-		0918157A15504CD500DDA547 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		0918157D15504ECD00DDA547 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		091815931550621400DDA547 /* AppIcon-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-72x72.png"; sourceTree = "<group>"; };
 		091815961550621700DDA547 /* AppIcon-144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-144x144.png"; sourceTree = "<group>"; };
+		098F31EF1553C80300F35B80 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		098F3252154FEAA60078D309 /* DeadPixels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadPixels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		098F3256154FEAA60078D309 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		098F3258154FEAA60078D309 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,7 +125,7 @@
 		09181546155021A800DDA547 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0918157A15504CD500DDA547 /* background.jpg */,
+				098F31EF1553C80300F35B80 /* background.png */,
 				091815551550225C00DDA547 /* Patterns */,
 				0918154F1550224700DDA547 /* button-bg-highlight.png */,
 				091815501550224700DDA547 /* button-bg-normal.png */,
@@ -278,9 +278,9 @@
 				091815651550226D00DDA547 /* MagentaGreen.png in Resources */,
 				091815711550417700DDA547 /* AppIcon-114x114.png in Resources */,
 				091815731550417C00DDA547 /* AppIcon-57x57.png in Resources */,
-				0918157B15504CD500DDA547 /* background.jpg in Resources */,
 				091815941550621400DDA547 /* AppIcon-72x72.png in Resources */,
 				091815971550621700DDA547 /* AppIcon-144x144.png in Resources */,
+				098F31F01553C80300F35B80 /* background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
